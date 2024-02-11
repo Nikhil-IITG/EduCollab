@@ -37,7 +37,7 @@ const authController = require('./Controllers/authController.js');
 
 // Session configuration
 app.use(session({
-    secret: '9Nk8Q~pmMv_4LZ-yK-eNeY0N.2~Ynwrr3HO8rbgZ',
+    secret: process.env.CLIENTSECRET,
     resave: false,
     saveUninitialized: false
 }));

@@ -34,7 +34,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const session = require('express-session');
 const passport = require('passport');
 const authController = require('./Controllers/authController.js');
-const { Course } = require("./Models/courseModel.js");
 
 // Session configuration
 app.use(session({

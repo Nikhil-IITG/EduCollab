@@ -4,7 +4,7 @@
 EduCollab is a web application aimed at enhancing the educational experience by providing a platform for students to collaborate, showcase their projects, and connect with peers. It facilitates sharing knowledge, receiving feedback, and exploring new opportunities in academia.
 
 ## Deployed Link
-[Educollab](https://educollab-zeta.vercel.app/dashboard)
+[Educollab](https://educollab-zeta.vercel.app/)
 
 ## Tech Stack Used
 - **MongoDB:** NoSQL database for storing user data and project information.
